@@ -4,5 +4,9 @@ List local module version or commit hash inside replace directive on a go.mod fi
 ### Usage
 ```localmod -mod /location/to/go.mod```
 
-### Install
-```go install github.com/suryadidedi/localmod```
+### Installation
+#### Go 1.16 or later
+```go install github.com/suryadidedi/localmod@latest```
+
+#### Go 1.15 or earlier
+```go get github.com/suryadidedi/localmod```

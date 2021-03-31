@@ -1,4 +1,4 @@
-module localmod
+module github.com/suryadidedi/localmod
 
 go 1.16
 
