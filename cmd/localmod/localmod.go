@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	commitArg = []string{"rev-list", "-1", "HEAD", "--no-merges", "--abbrev-commit"}
+	commitArg = []string{"rev-list", "-1", "HEAD", "--abbrev-commit"}
 )
 
 func main() {
